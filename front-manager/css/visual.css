@@ -1,0 +1,115 @@
+
+
+h1 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+/* MODAL STYLES
+-------------------------------*/
+.jw-modal {
+    /* modals are hidden by default */
+    display: none;
+    width: 100vw;
+    justify-content: center;
+    /* modal container fixed across whole screen */
+    position: fixed;
+    inset: 0;
+
+    /* z-index must be higher than everything else on the page */
+    z-index: 10000;
+    
+    /* semi-transparent black background exposed by padding */
+   /* background-color: #6f6f6e;*/
+    padding: 40px;
+
+    /* enables scrolling for tall modals */
+    overflow: auto;
+}
+
+.jw-modal.open {
+    display: flex;    
+    width: 100vw;
+    
+}
+
+.jw-modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #1b1b1a;
+    max-width: 800px;
+    border-radius: 10px;
+    width: 800px;
+    height: max-content;
+}
+
+body.jw-modal-open {
+    /* body overflow is hidden to hide main scrollbar when modal window is open */
+    overflow: hidden;
+}
+
+.fa-window-close{
+    align-self: flex-start;
+    height: 30px;
+}
+
+.header-alterar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 20px;
+    text-align: right;
+    
+}
+
+.header-alterar > h3{
+    flex: 50%;
+    margin-top: 5px;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(227, 227, 228);
+}
+
+.header-alterar > i {
+    justify-self: flex-end;
+    margin-right: 30px;
+}
+
+.main-alterar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color: rgb(232, 232, 233);
+}
+
+.main-alterar-img{
+    width: 400px;
+    
+}
+
+.main-alterar-img > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main-alterar-mais-detalhes-cima{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    
+}
+.select-alterar{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.select-alterar > select{
+    background-color: #1b1b1a;
+    border: 2px solid rgb(227, 227, 228);
+    color: rgb(227, 227, 228);
+    font-size: 16px;
+    border-radius: 4px;
+}
+

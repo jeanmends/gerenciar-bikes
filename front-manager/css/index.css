@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-color: #1b1b1a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1vw 1vh;
+    justify-content: center;
+    
+}
+
+.main{
+    background-color: #6f6f6e;
+    width: 900px;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+
+.alinhar-uf-ibge{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.titulo-quantidade{
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: right;
+    margin-right: 100px;
+}
+
